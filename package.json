@@ -1,0 +1,27 @@
+{
+  "name": "pss",
+  "version": "0.0.1",
+  "description": "Perfect Style Sheets",
+  "main": "lib/pss.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ecasilla/pss.git"
+  },
+  "keywords": [
+    "css",
+    "parser",
+    "compiler"
+  ],
+  "author": "Ernie Casilla",
+  "bugs": {
+    "url": "https://github.com/ecasilla/pss/issues"
+  },
+  "dependencies": {
+    "jison": "0.4.x",
+    "mocha": "1.x",
+    "nodemon": "1.x"
+  }
+}
